@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Linea 1"
+        android:icon="@drawable/train_icon"
+        android:id="@+id/linea1">
+    </item>
+    <item
+        android:title="Lima Pass"
+        android:icon="@drawable/train_icon"
+        android:id="@+id/limaPass">
+    </item>
+    <item
+        android:title="Resumen"
+        android:icon="@drawable/resumen_icon"
+        android:id="@+id/resumen">
+    </item>
+    <item
+        android:title="Perfil"
+        android:icon="@drawable/perfil_icon"
+        android:id="@+id/perfil">
+    </item>
+</menu>

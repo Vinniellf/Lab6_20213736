@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="default_web_client_id" translatable="false">140181769199-stsjqlap9ojo531j6ha3idcc604j71l7.apps.googleusercontent.com</string>
+    <string name="facebook_client_token">237bcf21cf9e6aaaf74db500a1bd835e</string>
+    <string name="facebook_app_id">2065846607272724</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

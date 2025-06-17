@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <!-- 📋 Info -->
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvParaderos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paraderos"
+                android:textSize="14sp"
+                android:textColor="#888888"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha del movimiento"
+                android:textSize="14sp"
+                android:textColor="#888888"/>
+
+            <TextView
+                android:id="@+id/tvTravelTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duración"
+                android:textSize="14sp"
+                android:textColor="#888888"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                style="@style/edit"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                app:icon="@drawable/edit_icon"
+                app:iconGravity="textTop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/btnDelete"
+                style="@style/delete"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                app:icon="@drawable/delete_icon"
+                app:iconGravity="textTop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
